@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+  "root": true,
+  "extends": [ "eslint-config-dev" ],
+  "ignorePatterns": "dist",
+  "parser": "@typescript-eslint/parser",
+  "plugins": [ "@typescript-eslint" ],
+  "rules": {
+    "comma-dangle": ["error", "only-multiline"],
+    "indent": ["error", "tab"],
+    "new-cap": "off",
+    "no-cond-assign": "off",
+    "no-fallthrough": "off",
+    "no-return-assign": "off",
+    "no-undef": "off",
+    "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
+    "semi": ["error", "never", { "beforeStatementContinuationChars": "always" }]
+  }
+}

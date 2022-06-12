@@ -1,0 +1,18 @@
+{
+  "pluginAlias": "SleepIQ-Next",
+  "pluginType": "platform",
+  "singular": true,
+  "headerDisplay": "Homebridge plugin to control a SleepNumber SleepIQ bed and foundation.",
+  "footerDisplay": "Homebridge-SleepIQ will auto-detect all devices associated with your account. If you have any issues, please submit a github ticket.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "required": false,
+        "default": "SleepIQ Platform"
+      }
+    }
+  }
+}
